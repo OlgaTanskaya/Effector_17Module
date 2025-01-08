@@ -1,0 +1,49 @@
+.TodoList {
+  padding: 20px;
+  font-size: 25px;
+}
+.TodoList_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.TodoList_input {
+  border-radius: 7px;
+  width: 100%;
+}
+.TodoList_button_add {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.3em 1em;
+  color: white;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #8a416b;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #35001f;
+}
+.TodoList_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+.TodoList_button_dlt {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.3em 0.6em;
+  color: white;
+  font-size: 0.9em;
+  font-family: inherit;
+  background-color: #a35d86;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.TodoList_li {
+  display: flex;
+  justify-content: space-between;
+}
